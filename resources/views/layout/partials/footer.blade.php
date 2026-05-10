@@ -18,7 +18,7 @@
                         <div class="w-10 h-10 bg-burgundy text-white rounded-full flex items-center justify-center text-sm shadow-lg">
                             <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3zm0 2.5l6 5.5v9h-2v-6H8v6H6v-9l6-5.5z"/></svg>
                         </div>
-                        <span>DOMINIUM</span>
+                        <span>TRIZA JELIMO</span>
                     </div>
                     <p class="text-gray-400 leading-relaxed mb-8 max-w-md">
                         Empowering clients with data-driven real estate strategies. From comprehensive market analysis to premium property listings, ensuring your investments yield maximum returns.
@@ -51,8 +51,8 @@
                     <h3 class="text-burgundy font-bold text-lg mb-6">Contact</h3>
                     <ul class="space-y-4 text-gray-300">
                         <li>+254 700 000 000</li>
-                        <li>alex@dominium.co.ke</li>
-                        <li>dominium.co.ke</li>
+                        <li>info@trizajelimo.co.ke</li>
+                        <li>trizajelimo.co.ke</li>
                     </ul>
                 </div>
 
@@ -71,7 +71,7 @@
             <hr class="border-gray-700 mb-6">
 
             <div class="flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
-                <p>Copyright© 2026 Alex. All Rights Reserved.</p>
+                <p>Copyright© 2026 Triza. All Rights Reserved | Developed by <a href="https://magandadigitalsolutions.co.ke/" class="text-burgundy hover:text-white transition-colors">Maganda Digital Solutions</a></p>
                 <div class="flex space-x-4 mt-4 md:mt-0">
                     <a href="#" class="hover:text-white transition-colors">User Terms & Conditions</a>
                     <span>|</span>

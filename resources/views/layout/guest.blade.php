@@ -45,7 +45,11 @@
             border-width: 2px;
             border-color: #d1d5db;
         }
+        /* * {
+  outline: 1px solid red !important;
+} */
     </style>
+
 </head>
 
 <body class="bg-white text-gray-900 font-sans overflow-x-hidden selection:bg-burgundy selection:text-white">
@@ -53,7 +57,7 @@
     @include('layout.partials.header')
 
 
-    <main class="relative pt-32 md:pt-44 pb-12 min-h-screen flex flex-col items-center px-4">
+    <main class="relative pt-32 md:pt-44 pb-12 min-h-screen flex flex-col items-center">
         @yield('content')
     </main>
 

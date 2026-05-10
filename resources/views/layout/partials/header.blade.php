@@ -1,13 +1,14 @@
 <header>
+    
     <nav
         class="fixed top-4 md:top-8 left-1/2 -translate-x-1/2 w-[95%] max-w-6xl bg-burgundy rounded-full px-2 py-2 flex items-center justify-between z-50 shadow-2xl shadow-burgundy/20">
         <div class="hidden md:flex items-center space-x-2 pl-2">
-            <a href="#"
-                class="bg-white text-burgundy px-8 py-2.5 rounded-full font-semibold text-sm transition-transform hover:scale-105">Home</a>
-            <a href="#"
-                class="text-white/90 hover:text-white hover:bg-white/10 px-6 py-2.5 rounded-full font-medium text-sm transition-all">About</a>
-            <a href="#"
-                class="text-white/90 hover:text-white hover:bg-white/10 px-6 py-2.5 rounded-full font-medium text-sm transition-all">Service</a>
+            <a href="{{ route('home') }}"
+                class="{{Request::is('/') ? 'bg-white text-burgundy' : 'text-white/90'}} hover:text-white hover:bg-white/10 px-6 py-2.5 rounded-full font-medium text-sm transition-all">Home</a>
+            <a href="{{ route('about') }}"
+                class="{{Request::is('about') ? 'bg-white text-burgundy' : 'text-white/90'}} hover:text-white hover:bg-white/10 px-6 py-2.5 rounded-full font-medium text-sm transition-all">About</a>
+            <a href="{{ route('services') }}"
+                class="{{Request::is('services') ? 'bg-white text-burgundy' : 'text-white/90'}} hover:text-white hover:bg-white/10 px-6 py-2.5 rounded-full font-medium text-sm transition-all">Services</a>
         </div>
 
         <div class="md:hidden pl-4">
@@ -28,12 +29,12 @@
         </div>
 
         <div class="hidden md:flex items-center space-x-2 pr-2 text-white/90">
-            <a href="#"
-                class="hover:text-white hover:bg-white/10 px-6 py-2.5 rounded-full font-medium text-sm transition-all">Resume</a>
-            <a href="#"
-                class="hover:text-white hover:bg-white/10 px-6 py-2.5 rounded-full font-medium text-sm transition-all">Project</a>
-            <a href="#"
-                class="hover:text-white hover:bg-white/10 px-6 py-2.5 rounded-full font-medium text-sm transition-all">Contact</a>
+            <a href="{{ route('achievements') }}"
+                class="{{Request::is('achievements') ? 'bg-white text-burgundy' : 'text-white/90'}} hover:text-white hover:bg-white/10 px-6 py-2.5 rounded-full font-medium text-sm transition-all">Achievements</a>
+            <a href="{{ route('projects') }}"
+                class="{{Request::is('projects') ? 'bg-white text-burgundy' : 'text-white/90'}} hover:text-white hover:bg-white/10 px-6 py-2.5 rounded-full font-medium text-sm transition-all">Projects</a>
+            <a href="{{ route('contact') }}"
+                class="{{Request::is('contact') ? 'bg-white text-burgundy' : 'text-white/90'}} hover:text-white hover:bg-white/10 px-6 py-2.5 rounded-full font-medium text-sm transition-all">Contact</a>
         </div>
     </nav>
 </header>
